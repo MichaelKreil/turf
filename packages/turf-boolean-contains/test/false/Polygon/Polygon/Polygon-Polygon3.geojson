@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ffa200",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#d4c63b",
+        "fill-opacity": 0.5,
+        "description": "box with a cut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [11.789,53.249],
+            [11.801,53.249],
+            [11.801,53.250],
+            [11.796,53.253],
+            [11.801,53.254336],
+            [11.801,53.261],
+            [11.789,53.261],
+            [11.789,53.249]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "smaller box that overlaps with the cut"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [11.79,53.25],
+            [11.8,53.25],
+            [11.8,53.26],
+            [11.79,53.26],
+            [11.79,53.25]
+          ]
+        ]
+      }
+    }
+  ]
+}
